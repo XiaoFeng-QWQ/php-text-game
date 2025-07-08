@@ -336,7 +336,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.min.js"></script>
-    <script src="/editScript.js"></script>
+    <script src="editScript.js"></script>
     <script>
         function loadSceneNodesFromSession() {
             const sceneList = <?php echo json_encode($_SESSION['地图编辑器']['场景列表'] ?? [], JSON_UNESCAPED_UNICODE); ?>;
